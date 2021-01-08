@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 設置兼容 -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    
+    <title>履歷製作</title>
+        <!-- Vue.js -->
+        <script src="vue.js"></script>
+        <!-- Vue 的 CDN -->
+        <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Rajdhani&display=swap" rel="stylesheet">
+        <!--Material Icons-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- CSS -->
+        <link rel="stylesheet" href="../Vue/sass/scss/style.css">
+
+</head> 
+
+<body>
+
+<div class="container">
+<div class="box"></div>
+<div class="sidelogo">WEB<span></span></div>
+<section class="face_section"><img src="img/face.png" alt=""></section>
+
+<div class="sidebox">
+    <span class="sideline"></span>
+    <span class="sideline"></span>
+    <span class="sideline"><i class="material-icons">place</i></span>
+
+    <span class="sideline"><i class="material-icons">local_phone</i></span>
+
+    <span class="sideline"><i class="material-icons">mail</i></span>
+
+    <span class="sideline"><i class="material-icons">public</i></span>
+    
+    <span class="sideline"></span>
+</div>
+
+
+
+    <div class="Contact-Information">
+    <h2>聯絡 <span>方 式</span> </h2>   
+    <span><h4>現居地 : 高雄市梓官區</h4></span>
+    <span><h4>手機號 : 0963-533-165</h4></span>
+    <span><h4>電子信 : luckyweichu@gmail.com</h4></span>
+    <span><h4>Github : luckyweichu</h4></span>
+    </div>
+    <div class="Computer-Skills">
+    <span><h2>技能 說 明</h2></span> 
+    <span class="SkillsSide"><h4>UI UX</h4></span> 
+    <span class="Skillsline"><span class="SkillUIUX"></span></span>
+    
+    <span><h5>Figma、Photoshop</h5></span>
+    <span class="SkillsSide"><h4>前端</h4></span> 
+    <span class="Skillsline"><span class="Skillfront"></span></span>
+    
+    <span><h5>Bootstrap、RWD</h5></span>
+    <span class="SkillsSide"><h4>後端</h4></span>
+    <span class="Skillsline"><span class="Skillback"></span></span>
+
+    <span><h5>PHP</h5></span>
+    <span class="SkillsSide"><h4>資料庫</h4></span>
+    <span class="Skillsline"><span class="Skillsql"></span></span>
+
+    <span><h5>Mysql</h5></span>
+    <span class="SkillsSide"><h4>其他技術</h4></span>
+    <span class="Skillsline"><span class="Skillother"></span></span> 
+
+    <span><h5>Word、Excel、PowerPoint</h5></span>
+
+    </div>
+
+    <div class="Language">
+    <span><h2>語言 能 力</h2></span> 
+    <div class="Circle">
+    <span class="Circlename">中文</span>
+    <span class="Circlepercent">75%</span>  
+    </div>
+    <div class="Circle">
+    <span class="Circlename">英文</span> 
+    <span class="Circlepercent">40%</span>
+    </div>
+    <div class="Circle">
+    <span class="Circlename">台語</span>
+    <span class="Circlepercent">60%</span>
+    </div>
+    <div class="Circle"> 
+    <span class="Circlename">日文</span>
+    <span class="Circlepercent">5%</span>  
+    </div> 
+    </div>
+
+    <div class="Position-Desired">
+    <span><h2>求職 條 件</h2></span> 
+    <span><h3>尋找工作:</h3></span>
+    <span><h4>UI / UX Designer</h4></span>
+    <span><h4>Front-end-engineer 網頁前端工程師</h4></span>       
+    <span><h3>地點:</h3></span> 
+    <span><h4>Kaohsiung 高雄</h4></span>     
+    </div>
+
+
+
+
+    <!-- 導覽列 -->
+<section id="header">
+    <div id="navbar">
+        <nav class="main">
+
+            <div class="navigation-wrapper">
+                <div class="hamburger">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+                <div class="top-box"></div>
+                <div class="side-menu">
+                    <ul>
+                        <li class="nav-item">
+                            <a href="#services">{{Home}}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#About-item" >{{About}}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Experience-item" >{{ Experience }}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Education-item" >{{ Education }}</a>
+                        </li>                
+                        <li class="nav-item">
+                            <a href="#Hobbies-item">{{Hobbies}}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Portfolio-item" >{{ Portfolio }}</a>
+                        </li>   
+                    </ul>
+                    <div class="side-menu-footer">
+                        <span class="option">
+                            <i class="material-icons">
+                                toggle_off
+                            </i>
+                            <span class="option_text">黑暗模式 : <span class="option_val">Off</span></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+
+
+
+    </div>
+</section>
+
+
+
+
+
+
+    <!-- HTML畫面 -->
+
+
+    
+   
+    <section id="services">
+        <div class="services container">
+          <div class="service-top">
+            <h4 class="section-title"><span>何 </span>威 駐  Wade<span> H</span>o</h4>
+          </div>
+
+
+          <div class="Aboutitem" id="Aboutitem">
+              <div id="About-item">
+              <h1>About (簡介) </h1>
+              <p>去年參加資策會，網頁前端工程師培訓，並於今年五月底結訓，從繪圖至網頁前後端與資料庫都有涉略，可根據公司不同需求進行輪換，並擅長規劃與管理等，有相關需求可參考技能說明</p>
+              <span style="color:red;"><b>目前此網頁為測試玩樂性質，請各位先進還多多包涵</b></span>
+              </div>
+
+            <div id="Experience-item">
+              <h1>Experience (經歷)</h1>
+              <p>2018.1-2019.6 從事精密金屬產業 - 廠務»品保助理
+                負責項目: 生產統計、ERP 應用、檢驗(游標卡尺、牙規等)
+                異常品處理、異常品統計、文件製作、文件管理。</p>
+              <p>2019.10-2020.6 台中資策會上課 – 前端工程師
+                所學項目: Git 版本控制、HTML 相關設計、Node.js、JQuery、
+                Vue、Angular、PHP、Mysql 建置與管理、Figma、UI/UX 設計。</p>
+              </div>    
+
+              <div id="Education-item">
+              <h1>Education (學歷)</h1>
+              <p>亞洲大學 碩士 國際企業管理 副班代 肄業</p>
+              <p>嶺東科技 大學 資訊管理 班代 畢業</p>
+              <p>在學經歷 : 學院工讀生 (會議處理 文件管理 活動助理)
+                課程助教 (課程指導 文件製作 活動助理)</p>
+              </div>
+
+              
+
+                <div id="Hobbies-item">
+                 <h1>Hobbies (興趣)</h1>      
+                <div class="Hobbies-item">  
+                <div class="card">
+                    <div class="imgBx"><img src="img/baseball.jpg" width="100%">
+                        <div class="story">
+                            <h2>棒球</h2>
+                            <p>求學時期曾在日本職業棒球隊來台打工過，當時所獲贈的球衣。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBx"><img src="img/studentsjob.jpg" width="100%">
+                        <div class="story">
+                            <h2>求學</h2>
+                            <p>在求學時期曾在學院打工過，負責文件管理、活動協助、會議協助。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBx"><img src="img/beach.jpg" width="100%">
+                        <div class="story">
+                            <h2>環保</h2>
+                            <p>有時還會響應環保，去參與淨灘活動，為大眾保護好環境。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBx"><img src="img/beach1.jpg" width="100%">
+                        <div class="story">
+                            <h2>淨灘</h2>
+                            <p>清理中的畫面，由大家一起合作，最後整理至路上由垃圾車清運。</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+
+                <div id="Portfolio-item">
+                    <h1>Portfolio (作品)</h1>
+                    <span style="color:red;"><b>後續更新...</b></span>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+</div>
+
+    <script>
+
+        const Home = {
+            template: '<h1>首頁</h1>'
+        }
+        const About = {
+            template: '<h1>簡介</h1>'
+        }
+        const Skills = {
+            template: '<h1>工作</h1>'
+        }
+        const Education = {
+            template: '<h1>學歷</h1>'
+        }
+        const Experience = {
+            template: '<h1>經歷</h1>'
+        }
+        const Portfolio = {
+            template: '<h1>作品</h1>'
+        }        
+        
+        new Vue({
+            el: '#navbar',
+            data: {
+                Home: '首頁',
+                About: '簡介',
+                Experience: '經歷',
+                Education: '學歷',
+                Hobbies: '興趣',
+                Portfolio: '作品',
+
+            }
+        }
+        )
+
+
+
+
+
+
+var hamburgerButton = document.querySelector('.hamburger');
+var sideMenu = document.querySelector('.side-menu');
+var background_video = document.querySelector('.background_video');
+var face_section = document.querySelector('.face_section');
+var dark_theme_option = document.querySelector('.option');
+var body_ele = document.querySelector('body');
+var line = document.querySelector('.line');
+var Aboutitem = document.querySelector('.Aboutitem');
+
+
+function openMenu(event) {
+    
+    hamburgerButton.classList.toggle('active');
+    sideMenu.classList.toggle('active');
+    face_section.classList.toggle('active');
+    event.preventDefault();
+    event.stopImmediatePropagation();
+}
+
+function closeMenu(event) {
+    
+    if(hamburgerButton.classList.contains('active')){
+        hamburgerButton.classList.remove('active');
+        sideMenu.classList.remove('active');
+        background_video.classList.remove('active');
+        face_section.classList.remove('active');
+    }
+}
+
+function dark_theme_toggle(event) {
+    var option_val = dark_theme_option.querySelector('.option_val');
+    
+    if(dark_theme_option.classList.contains('active')){
+        Aboutitem.classList.remove('white');  
+        dark_theme_option.classList.remove('active');               
+        hamburgerButton.classList.remove('dark');
+        sideMenu.classList.remove('dark');
+        body_ele.classList.remove('dark');
+        option_val.innerHTML="Off";
+    }
+    else{
+        dark_theme_option.classList.toggle('active');
+        hamburgerButton.classList.toggle('dark');
+        body_ele.classList.toggle('dark');
+        Aboutitem.classList.toggle('white');
+        option_val.innerHTML="On";
+
+    }
+}
+
+hamburgerButton.addEventListener('click',openMenu, false);
+dark_theme_option.addEventListener('click',dark_theme_toggle, false);
+
+
+
+   
+    </script>    
+
+
+
+
+
+</body>
+</html>
