@@ -859,8 +859,8 @@ background: #E0E0E0;
 /* Small devices */
 @media screen and (max-width:950px){
 
-	.hamburger{
-		left: 85%;
+	.hamburger {
+		left: 180px;
 	}
 
 	.side-menu{
