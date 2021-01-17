@@ -634,6 +634,7 @@ background: #E0E0E0;
 	transform:skewX(0deg) translate(100%,0);
 	transition: all .2s ease-in;
 	z-index: 998;
+	-webkit-transform-origin-z: 0;
 }
 
 .side-menu.dark{
