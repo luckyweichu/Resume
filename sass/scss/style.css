@@ -91,10 +91,6 @@ nav{
 
 
 
-
-
-
-
 .sidebox.sideline{
 	width: -330px;
 	left: 300px;
@@ -426,7 +422,7 @@ background: #E0E0E0;
 	will-change: transform;
 	display: flex;
 	position: fixed;
-	z-index: 999;
+	z-index: 100;
 	top:40px;
 	right:50px;
 	height:37px;
@@ -632,12 +628,12 @@ background: #E0E0E0;
 	position: fixed;
 	top:0;
 	right:0;
-	width:20%;
+	width:18%;
 	background-color: #303030;
 	height:100%;
 	transform:skewX(0deg) translate(100%,0);
 	transition: all .2s ease-in;
-	z-index: 998;
+	z-index: 99;
 }
 
 .side-menu.dark{
@@ -835,7 +831,7 @@ background: #E0E0E0;
 	}
 
 	.side-menu{
-		width:25% !important;
+		width:20% !important;
 		margin: auto;
 	}
 
