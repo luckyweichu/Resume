@@ -827,18 +827,18 @@ background: #E0E0E0;
 @media screen and (max-width:950px){
 
 	.hamburger {
-		left: 180px;
+		left: 160px;
 	}
 
 	.side-menu{
-		width:20% !important;
+		width:16% !important;
 		margin: auto;
 	}
 
 	.side-menu ul{
 		position:fixed;
 		right: 0 !important;
-		left:0;
+		left:-10px;
 		margin: auto;
 		text-align: center;
 		width:100% !important;	
