@@ -422,7 +422,7 @@ background: #E0E0E0;
 	will-change: transform;
 	display: flex;
 	position: fixed;
-	z-index: 100;
+	z-index: 999;
 	top:40px;
 	right:50px;
 	height:37px;
@@ -633,7 +633,7 @@ background: #E0E0E0;
 	height:100%;
 	transform:skewX(0deg) translate(100%,0);
 	transition: all .2s ease-in;
-	z-index: 99;
+	z-index: 998;
 }
 
 .side-menu.dark{
