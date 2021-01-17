@@ -627,7 +627,7 @@ background: #E0E0E0;
 .side-menu{
 	position: fixed;
 	top:0;
-	right:0;
+	right:-10px;
 	width:18%;
 	background-color: #303030;
 	height:100%;
