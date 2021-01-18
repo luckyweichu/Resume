@@ -920,7 +920,7 @@ background: #E0E0E0;
 	}
 	.option i{
 		font-size: 40px;
-		margin: 0px -60px;
+		margin: 0px -70px;
 		position: absolute;
 	}
 
@@ -986,7 +986,7 @@ background: #E0E0E0;
 	}
 
 	.side-menu{
-		width:25% !important;
+		width:18% !important;
 		margin: auto;
 	}
 
